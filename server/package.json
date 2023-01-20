@@ -1,0 +1,31 @@
+{
+	"name": "s3961094_a2",
+	"version": "1.0.0",
+	"description": "Full-stack social network web application.",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rmit-fwp-s2-2022/s3961094-a2.git"
+	},
+	"author": "Jan Simon Einar Nystroem",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rmit-fwp-s2-2022/s3961094-a2/issues"
+	},
+	"homepage": "https://github.com/rmit-fwp-s2-2022/s3961094-a2#readme",
+	"dependencies": {
+		"argon2": "^0.29.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"mysql2": "^2.3.3",
+		"sequelize": "^6.24.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
