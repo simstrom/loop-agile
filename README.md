@@ -57,6 +57,23 @@ Here is a list of third party libraries/packages I've used and why.
 6. `npm install`
 7. `npm start`
 
+## Preview
+### Screenshots
+Home feed
+![home feed](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/home-feed.png)
+
+Single post
+![single post](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/single-post.png)
+
+Profile page
+![profile](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/profile.png)
+
+Followers
+![followers](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/followers.png)
+
+Create post
+![create post](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/new-post.png)
+
 ### Database Design
 
 ![DB Design](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/database_design.png)
