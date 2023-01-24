@@ -3,7 +3,7 @@ import { deleteObject, getDownloadURL, ref, uploadBytes } from 'firebase/storage
 import storage from '../utils/firebase.config';
 import { findUser } from './user';
 
-const API_URL = 'http://localhost:4000/api/posts';
+const API_URL = 'https://loop-agile-api.vercel.app/api/posts';
 
 // --- POSTS ------------------------------------
 /**

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/users';
+const API_URL = 'https://loop-agile-api.vercel.app/api/users';
 
 // --- USERS ------------------------------------
 export const findUsers = async () => {
