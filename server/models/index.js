@@ -2,7 +2,9 @@ const { Sequelize, DataTypes } = require('sequelize');
 const config = require('../config/db.config');
 
 // Init DB connection.
-const sequelize = new Sequelize(config.URI);
+const sequelize = new Sequelize(config.URI, {
+	dialectModule: require('pg'),
+});
 
 // Include Models
 const User = require('./User')(sequelize, DataTypes);
