@@ -6,9 +6,9 @@ Built for the purpose to learn full-stack React development and its design patte
 
 ## Technologies
 
-Frontend: React
-Middle layer: Node.js, Express.js and Sequelize ORM
-Backend Database: PostgreSQL
+- Frontend: React
+- Middle layer: Node.js, Express.js and Sequelize ORM
+- Backend Database: PostgreSQL
 
 ## Libraries & Packages
 
