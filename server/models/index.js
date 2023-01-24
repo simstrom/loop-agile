@@ -2,10 +2,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 const config = require('../config/db.config');
 
 // Init DB connection.
-const sequelize = new Sequelize(config.DATABASE, config.USER, config.PASSWORD, {
-	host: config.HOST,
-	dialect: config.DIALECT,
-});
+const sequelize = new Sequelize(config.URI);
 
 // Include Models
 const User = require('./User')(sequelize, DataTypes);

@@ -7,5 +7,6 @@ module.exports = {
 	USER: env.DB_USER,
 	PASSWORD: env.DB_PASSWORD,
 	DATABASE: env.DB_NAME,
-	DIALECT: 'mysql',
+	URI: env.DB_URI,
+	DIALECT: 'postgres',
 };
