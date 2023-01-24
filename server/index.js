@@ -16,3 +16,6 @@ sequelize.sync().then(() => {
 		console.log(`Server is running on port ${PORT}.`);
 	});
 });
+
+// Export app for use with serverless function in vercel
+module.exports = app;

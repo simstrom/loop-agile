@@ -8,7 +8,7 @@ Built for the purpose to learn full-stack React development and its design patte
 
 Frontend: React
 Middle layer: Node.js, Express.js and Sequelize ORM
-Backend Database: MySQL
+Backend Database: PostgreSQL
 
 ## Libraries & Packages
 
@@ -42,19 +42,21 @@ Here is a list of third party libraries/packages I've used and why.
 
 ### Config
 
-1. Go to `./client/src/utils/firebase.config.js`
-2. Update credentials.
+1. Go to `./client`
+2. Create `.env` file and match content of `./client/src/utils/firebase.config.js`
 3. Go to `./server`
 4. Create `.env` file and match content of `./server/config/db.config.js`
 
 ### How to Run
 
-1. `cd client`
+1. `cd server`
 2. `npm install`
 3. `npm start`
 4. open new terminal window/tab.
-5. `cd server`
+5. `cd client`
 6. `npm install`
 7. `npm start`
 
 ### Database Design
+
+![DB Design](https://raw.githubusercontent.com/simstrom/loop-agile/master/preview/database_design.png)
