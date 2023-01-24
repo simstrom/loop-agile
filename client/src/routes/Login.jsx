@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 import { verifyUser } from '../api/user';
 
 export default function Login({ loginUser }) {
-	const [fields, setFields] = useState({ email: '', password: '' });
+	const [fields, setFields] = useState({ email: 'demo@gmail.com', password: 'demo' });
 	const [error, setError] = useState(false);
 	const toast = useToast();
 
