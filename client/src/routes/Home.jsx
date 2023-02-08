@@ -17,8 +17,8 @@ export default function Home() {
 					<Heading fontSize="5xl">Welcome to LA Now</Heading>
 					<Text fontSize="lg">We are more powerful when we empower eachother!</Text>
 					{!user ? (
-						<Button as={ReachLink} to="/register" colorScheme="teal" w="25%" mt={6}>
-							Join Now
+						<Button as={ReachLink} to="/login" colorScheme="teal" w="35%" mt={6}>
+							Login as Demo User
 						</Button>
 					) : (
 						<Button as={ReachLink} to="/posts" colorScheme="teal" w="25%" mt={6}>
